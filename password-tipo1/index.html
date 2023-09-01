@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-field</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="centering">
+        <div class="box">
+            <div class="input_wrapper">
+                <input
+                id="password"
+                type="password"
+                name="password"
+                placeholder="Your Password"
+                title="Minimun 6 characters and 1 number"
+                pattern="^(?=.*[A-Za-z])(?=.*/d)[A-Za-z/d]{6,}"
+                required
+                class="input_field"
+                placeholder="Your Password"
+                >
+                <label 
+                    for="password"
+                    class="input_label"
+                >
+                    Password    
+                </label>
+                <img
+                    alt="Eye Icon"
+                    title="Eye Icon"
+                    src="eye.svg"
+                    class="input_icon"
+                >
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
