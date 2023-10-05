@@ -14,9 +14,7 @@ body {
 }
 
 .calculator {
-  border: 1px solid red;
-
-  position: relative;
+   position: relative;
   width: 340px;
   padding: 20px;
   border-radius: 20px;
@@ -29,8 +27,6 @@ body {
 }
 
 .calculator .buttons #value {
-border: 1px solid blue;
-
   position: relative;
   grid-column: span 4;
   user-select: none;
